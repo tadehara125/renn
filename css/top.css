@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*メインビジュアル*/
+#topMainVisual{
+  margin-bottom:30px;
+  margin-right:20%;
+  margin-left:19%;  
+  }
+/*スライダーのボタン*/
+.slick-dots{
+  bottom:10px;
+  }
+.slick-dots li{
+  bottom:0 5px;
+  }
+.slick-dots li button:before{
+  font-size:14px;
+  color:#ffffff;
+  opacity:1;
+  }
+.slick-dots li.slick-active button:before{
+  color:#ed4343;
+  opacity:1;
+  }

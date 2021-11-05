@@ -1,0 +1,163 @@
+@charset "utf-8";
+/*共通のスタイル*/
+body{
+background-color: #000000;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  max-width: 1100px;
+}
+h1{
+  color: #fff;
+  font-size: 15px;
+  margin-bottom:30px;
+  margin-right:10%;
+  margin-left:10%;
+  }
+  @media screen and (min-width: 768px){
+    h1{
+       font-size: 50px;
+    }
+  }
+  h1 li {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+h2{
+  color: #fff;
+  font-size: 15px;
+  margin-right:20%;
+  margin-left:20%;
+}
+@media screen and (min-width: 768px){
+  h2{
+     font-size:100px;
+  }
+}
+h2 li {
+  flex: 1 1 auto;
+  text-align: center;
+}
+p{
+  color:#626222;
+  font-size: 10px;
+  } 
+  @media screen and (min-width: 768px){
+    p{
+       font-size: 40px;
+    }
+  }
+  p li {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+
+a{
+ text-decoration: none;
+ color: #fff;
+ }
+a:hover{
+ color: #626222;
+ }				
+li{
+  color:#626222;
+  font-size: 15px;
+  }
+  @media screen and (min-width: 768px){
+    li{
+       font-size: 25px;
+    }
+  }
+  li li {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+.rekisi{
+  margin-right:20%;
+  margin-left:20%;
+}
+.desin{
+  margin-right:20%;
+  margin-left:20%;
+}
+img.rogo {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.menu-btn {
+  padding: 10px 0;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+  background: url(../hamburger.png) no-repeat center center;
+  background-size:  contain;
+  }
+
+@media screen and (min-width:  768px) {
+.header-logo {
+  padding: 20px 0;
+  width: 200px;
+  height: 46px;
+  }
+.menu-btn {
+  display: none;
+  }
+}
+/* ========== �i�r�Q�[�V���� ========== */
+nav {
+  background : #393939;
+  }
+.navbar {
+  display : none;
+  list-style-type : none;
+  }
+.navbar a {
+  display : block;
+  padding : 0.6rem 0;
+  color : #fff;
+  text-decoration : none;
+  }
+.navbar a:hover {
+  background : #626222
+  }
+@media screen and (min-width : 768px) {
+  .navbar {
+    display : flex !important;
+    }
+    .navbar li {
+      flex: 1 1 auto;
+      text-align : center;
+      }
+    .navbar a.nav-current {
+      background : #393939;
+      }
+    }
+    footer {
+      background : #393939;
+      font-size : 0.9rem;
+      color : #fff;
+      }
+    .footer-container {
+      padding-top : 20px;
+      padding-bottom : 20px;
+    }
+    .footer-nav{
+      list-style-type: none;
+      }
+    .footer-nav li{
+      display: inline;
+      padding: 0 1rem 0 0;
+      }
+    .footer-nav a{
+      color: #fff;
+      text-decoration: none;
+      }
+    .footer-nav a:hover{
+      opacity: 0.5;
+    }
+    
